@@ -4,8 +4,7 @@ import Phonetic from "./Phonetic";
 
 function Result(props) {
   if (props.results) {
-    return (
-      <div>
+    
         return (
         <div className="result">
           <section>
@@ -20,8 +19,7 @@ function Result(props) {
             );
           })}
         </div>
-        )
-      </div>
+       
     );
   } else {
     return null;
