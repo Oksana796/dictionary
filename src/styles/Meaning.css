@@ -1,0 +1,15 @@
+.meaning h6 {
+  font-size: 14px;
+  color: #3d5a04;
+  text-transform: capitalize;
+}
+.meaning .definition {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.meaning .example {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.7;
+}

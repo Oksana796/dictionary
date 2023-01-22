@@ -15,9 +15,9 @@ function Result(props) {
           </section>
           {props.results.meanings.map(function (meaning, index) {
             return (
-              <div key={index}>
+              <section key={index}>
                 <Meaning mean={meaning} />
-              </div>
+              </section>
             );
           })}
         </div>

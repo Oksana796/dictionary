@@ -25,8 +25,9 @@ function Dictionary() {
   const search = (event) => {
     event.preventDefault();
 
+    //documentation: https://dictionaryapi.dev/
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-
+    //console.log(apiUrl);
     axios.get(apiUrl).then(handleDictionaryResponse);
 
     const pexelsApiKey = `563492ad6f91700001000001352eccf8122c4ce6b5ef7070daeb8c9b`;

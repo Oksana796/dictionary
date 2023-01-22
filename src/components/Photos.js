@@ -5,7 +5,7 @@ function Photos(props) {
   if (props.photo) {
     return (
       
-        <div className="photos">
+        <section className="photos">
           <div className="row">
             {props.photo.map(function (photo, index) {
               return (
@@ -21,7 +21,7 @@ function Photos(props) {
               );
             })}
           </div>
-        </div>
+        </section>
       
     );
   } else {

@@ -1,0 +1,11 @@
+.synonyms {
+  font-size: 13px;
+  margin: 15px 0;
+  padding: 0;
+}
+.synonyms li {
+  display: inline-block;
+  padding-right: 18px;
+  line-height: 1;
+  opacity: 0.7;
+}

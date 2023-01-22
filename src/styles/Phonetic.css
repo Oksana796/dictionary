@@ -1,0 +1,11 @@
+/*.phonetic audio {
+  display: block;
+  margin: 15px 0;
+  border: 0.5px solid #6b8e23;
+  border-radius: 20px;
+  width: 120px;
+}*/
+.phonetic span {
+  font-size: 20px;
+  opacity: 0.8;
+}
